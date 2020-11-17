@@ -1,0 +1,11 @@
+
+        <li *ngFor="let wit of witList" (click)="onSelect(wit)" class="dropdown-item">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> {{wit.id}} | {{wit.label}}
+                </label>
+            </div>
+        </li>
+
+
+  

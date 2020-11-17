@@ -1,0 +1,11 @@
+
+        <li *ngFor="let file of filesList" (click)="onSelect(file)" class="dropdown-item">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> {{file.label}}
+                </label>
+            </div>
+        </li>
+
+
+  

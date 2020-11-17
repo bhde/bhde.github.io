@@ -1,0 +1,12 @@
+
+        <li *ngFor="let book of books" [class.selected]="book === selectedBook"
+        (click)="onSelect(book)" class="dropdown-item">
+            <div class="form-check">
+                <label>
+                    <input type="radio" name="book"> {{book.label}}
+                </label>
+            </div>
+        </li>
+
+
+  
