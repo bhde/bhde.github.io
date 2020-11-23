@@ -17,5 +17,9 @@ export class EditionMainComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  public loadComponent = false;
+    loadMyChildComponent(){
+       this.loadComponent = true;
+    }
 
 }

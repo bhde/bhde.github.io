@@ -1,8 +1,10 @@
 
         <li *ngFor="let book of books" [class.selected]="book === selectedBook"
-        (click)="onSelect(book)" class="dropdown-item">
+          class="dropdown-item">
             <div class="form-check">
-                <label>
+                <button (click)="loadMyChildComponent();">Load</button>
+
+                <label  (click)="loadMyChildComponent();">
                     <input type="radio" name="book"> {{book.label}}
                 </label>
             </div>

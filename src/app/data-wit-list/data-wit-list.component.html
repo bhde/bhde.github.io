@@ -1,11 +1,23 @@
+<style>
 
-        <li *ngFor="let wit of witList" (click)="onSelect(wit)" class="dropdown-item">
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox"> {{wit.id}} | {{wit.label}}
-                </label>
-            </div>
-        </li>
-
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.badge{
+    vertical-align: middle;
+    margin-left: 2em;
+    width:3em
+}
+</style>
 
   
+            <li *ngFor="let wit of witList" (click)="onSelect(wit)" class="dropdown-item flex">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> {{wit.label}} </label>
+                </div>
+                <span class="badge badge-light">{{wit.id}}</span> 
+                    
+            </li>

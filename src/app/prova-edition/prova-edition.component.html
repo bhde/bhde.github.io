@@ -1,0 +1,94 @@
+
+
+
+
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm bg-light serif sticky-top" style="margin-top:-32px">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                <a class="btn dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Book             <span *ngIf="selectedBook" class="badge badge-pill">({{selectedBook.id}})</span>
+
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  
+        <li *ngFor="let book of books" [class.selected]="book === selectedBook"
+        class="dropdown-item" (click)="onSelect(book)">
+          <div class="form-check">
+
+              <label>
+                  <input type="radio" name="book"> {{book.label}}
+              </label>
+          </div>
+      </li>
+                </div>
+              </li>
+      
+              <li class="nav-item dropdown">
+                <a class="btn dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Text
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <app-data-wit-list></app-data-wit-list>
+                </div>
+              </li>
+      
+              <li class="nav-item dropdown">
+                <a class="btn dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Show
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <app-data-files-list></app-data-files-list>
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="#">bhde        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                <a class="btn dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Settings
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li class="nav-item"><a class="nav-link">Item</a></li>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      <section>
+
+
+
+        <div *ngIf="selectedBook">
+    
+
+
+          <div class="card bg-light mb-3 serif" style="margin:2em">
+            <div class="card-header">{{selectedBook.id}}. {{selectedBook.label}}</div>
+            <div class="card-body">
+                <app-prova-book-reader></app-prova-book-reader>
+            </div>
+          </div>      
+        
+        </div>
+
+    </section>

@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Book } from '../book';
 import { BOOKS } from '../mock-books';
 
-
 @Component({
-  selector: 'app-data-book-list',
-  templateUrl: './data-book-list.component.html',
-  styleUrls: ['./data-book-list.component.scss']
+  selector: 'app-prova-edition',
+  templateUrl: './prova-edition.component.html',
+  styleUrls: ['./prova-edition.component.scss']
 })
-export class DataBookListComponent implements OnInit {
+export class ProvaEditionComponent implements OnInit {
+
   books = BOOKS;
 
   selectedBook: Book;
@@ -21,7 +21,8 @@ export class DataBookListComponent implements OnInit {
   onSelect(book: Book): void {
     this.selectedBook = book;
   }
-
-  
-
+  public loadComponent = false;
+  loadMyChildComponent(){
+     this.loadComponent = true;
+  }
 }

@@ -9,6 +9,7 @@ import { Book } from '../book';
 })
 export class EditorCardComponent implements OnInit {
   @Input() book: Book;
+  
 
 
   constructor() { }

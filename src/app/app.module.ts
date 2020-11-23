@@ -18,6 +18,10 @@ import { DataBookListComponent } from './data-book-list/data-book-list.component
 import { DataFilesListComponent } from './data-files-list/data-files-list.component';
 import { DataWitListComponent } from './data-wit-list/data-wit-list.component';
 import { EditorCardComponent } from './editor-card/editor-card.component';
+import { ProvaEditionComponent } from './prova-edition/prova-edition.component';
+import { ProvaBookReaderComponent } from './prova-book-reader/prova-book-reader.component';
+
+
 
 @NgModule({
   declarations: [
@@ -36,11 +40,13 @@ import { EditorCardComponent } from './editor-card/editor-card.component';
     DataBookListComponent,
     DataFilesListComponent,
     DataWitListComponent,
-    EditorCardComponent
+    EditorCardComponent,
+    ProvaEditionComponent,
+    ProvaBookReaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

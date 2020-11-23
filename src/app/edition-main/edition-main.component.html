@@ -1,1 +1,4 @@
-<app-editor-card [(book)]="selectedBook"></app-editor-card>
+
+<div *ngIf= 'loadComponent'>
+    <app-editor-card></app-editor-card>
+</div>
