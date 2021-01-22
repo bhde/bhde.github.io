@@ -1,0 +1,526 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>BHDE - Book 1 - Autograph variants</title>
+            <respStmt>
+                <resp>editor</resp>
+                <name xml:id='psn-a.chisena'>Anna Gabriella Chisena</name>
+            </respStmt>
+            <respStmt>
+                <resp>transcriber</resp>
+                <name xml:id='psn-m.petolicchio'>Marco Petolicchio</name>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <p>Not ​for ​distribution.​</p>
+        </publicationStmt>
+    </fileDesc>
+</teiHeader>
+
+
+
+<text>
+
+    <body xml:id='301' xml:lang='la'>
+
+        <app from='#101013.01' to='#101013.03'>
+            <lem>imperiis elata suis</lem>
+            <rdg wit='#R1'>imperio sublata</rdg>
+            <rdg wit='#R2'><corr/></rdg>
+        </app>
+
+        <app from='#101022.01' to='#101022.03'>
+            <lem>discordisque ~ bellum</lem>
+            <rdg wit='#R1 #R2'><unclear>???</unclear></rdg>
+        </app>
+
+        <app from='#101029.06'>
+            <lem>tumescunt</lem>
+            <rdg wit='#R'>fremescunt</rdg>
+            <rdg wit='#R1'><del>fremescunt</del><corr>tumescunt</corr></rdg>
+        </app>
+
+        <app from='#101036.01' to='#101036.06'>
+            <lem>Excidium ~ moveri</lem>
+            <rdg wit='#R'> Excidium terraeque tremor squalentia arva / Defectusque poli solis lunaeque recursus / tumstrepitus caeli longe tum coepta moveri</rdg>
+            <rdg wit='#R1'> Excidium terraeque tremor <del>squalentia arva / Defectusque poli solis lunaeque recursus / tumstrepitus caeli longe</del> tum coepta moveri</rdg>
+        </app>
+
+        <app from='#101039.01' to='#101039.05'>
+            <lem>defectusque ~ recursus</lem>
+            <rdg wit='#F #P #O #Pa1 #Pa2 #V1 #V2 #Ro #W'><em>omitted</em></rdg>
+            <rdg wit='#R2'><add place='margin'>(rectoordine litteris a et b appositis tamen restituto)</add></rdg>
+        </app>
+
+        <app from='#101047.02'>
+            <lem>arcessit</lem>
+            <rdg wit='#R1'><corr place='ras.'/></rdg>
+        </app>
+
+        <app from='#101052.01' to='101052.07'>
+            <lem>Italiae ~ oris</lem>
+            <rdg wit='#R' xml:id='301052'>Candida magnanimi capiet tentoria regis</rdg>
+            <rdg wit='#R1'><del from='#301052'/><add>Italiae ~ oris</add></rdg>
+        </app>
+
+        <app from='#101053.01' to='#101053.08'>
+            <lem>Ille ~ ipso</lem>
+            <rdg wit='#R1'><em>lit. b add in mg.</em></rdg>
+        </app>
+
+        <app from='#101053' to='#101054'>
+            <lem>ille ~ armis</lem>
+            <rdg wit='R'><add place='interlinear' xml:id='301053'>Quanvis ille sui suspectet praelia belli</add></rdg>
+            <rdg wit='R1'><del from='#301053'/></rdg>
+        </app>
+
+        <app from='#101062' to='#101063'>
+            <lem>Olli ~ ventis</lem>
+            <rdg wit='#R'><add place='interlinear' xml:id='301062'>Iamque aspectabat montis, atlanta nivalem / Qui caelo caput atque pedestellure recondit / Appennine tuum caput, umbrosumque taburnum / Tum vesulum atque alios ventosa cacumina montis /Magnaque cerulei maris aequora; littora circum / Spumea tum varia populos tellure potitos</add></rdg>
+            <rdg wit='#R1'><del from='#301062'/></rdg>
+        </app>
+
+        <app from='#101069.01' to='#101070.08'>
+            <lem>duc ~ Iuno</lem>
+            <rdg wit='#R'><add place='interlinear' xml:id='301069'>et magnanimi capiens tentoria regis <unclear>????</unclear></add></rdg>
+            <rdg wit='#R1'><del from='#301069'/></rdg>
+        </app>
+
+        <app from='#101075.07'>
+            <lem>retrectat</lem>
+            <rdg wit='#R #St'>retractat</rdg>
+            <rdg wit='#R1'><em>a exp. et corr.</em></rdg>
+        </app>
+
+        <app from='#101091.03' to='#101091.06'>
+            <lem>tumulo sublimis ab alto</lem>
+            <rdg wit='#R' xml:id='301091'>patriis sublimis in armis</rdg>
+            <rdg wit='#R1'><del from='#301091'/><corr place='margin'>tumulo sublimis ab alto</corr></rdg>
+        </app>
+
+        <app from='#101092.02'>
+            <lem>Eurybromumque</lem>
+            <rdg wit='#R'>Eurytonumque</rdg>
+            <rdg wit='#R1'>Eury<del>tonum</del><add place='sup. lin.'>bromum</add>que</rdg>
+        </app>
+
+        <app from='#101092.06'>
+            <lem>mandat</lem>
+            <rdg wit='#R' xml:id='301092'>fatur</rdg>
+            <rdg wit='#R1'><del from='#301092'/><corr place='margin'>mandat</corr></rdg>
+        </app>
+
+        <app from='#101094.01' to='#101094.02'>
+            <lem>Alphonso et</lem>
+            <rdg wit='#R' xml:id='301094'>Et regi</rdg>
+            <rdg wit='#R1'><corr place='margin'>Alphonso et</corr></rdg>
+        </app>
+
+        <app from='#101095.06'>
+            <lem>sonorum</lem>
+            <rdg wit='#R' xml:id='301095'>profundum</rdg>
+            <rdg wit='#R1'><del from='#301095'/><corr place='margin'>sonorum</corr></rdg>
+        </app>
+
+        <app from='#101111.01' to='#101111.06'>
+            <lem>aequoris ~ montis</lem>
+            <rdg wit='#R' xml:id='301111'>Et larga aerios lustrabat lampade montis</rdg>
+            <rdg wit='#R1'><del>Et larga aerios</del> <corr place='margin'>Aequoris et</corr><add place='inter lineas'>summos</add></rdg>
+            <rdg wit='#R2'><add place='infra'>summos</add></rdg>
+        </app>
+
+        <app from='#101112.02' to='#101112.03'>
+            <lem>ac magni</lem>
+            <rdg wit='#R' xml:id='301112'>et magni</rdg>
+            <rdg wit='#R1'><del from='#301112'/><corr>ac magni</corr></rdg>
+        </app>
+
+        <app from='#101119' to='#101120'>
+            <lem>ipse ~ habenis</lem>
+            <rdg wit='#R'><add place='interlinear'>Vos quicumque oculis mortalia cernitis aequis / dii precor italiaecustodes maxima semper / Numina: romuleae quianam favistis et urbem / et populo et fautrix trabeati Vesta Quirini /Hanc rabiem iam nunc templis avertite vestris / et pacem ausonijs solam quam poscimus oris / Reddite: &#x26; Alphonsumvestra decedere terra / Ne prohibete: procul pelago dare vela profundo / Acceleret profugusque nefas hinc triste reportet <w xml:id='301119.01'>Romueleae</w></add></rdg>
+            <rdg wit='#R1'><del from='#301119.01'/><corr>romuleam</corr></rdg>
+        </app>
+
+        <app from='#101121.01' to='#101121.05'>
+            <lem>exploratatque ~ locosque</lem>
+            <rdg wit='#R'>exploratatque ~ <w xml:id='301121'>locos</w></rdg>
+            <rdg wit='#R1'><del from='#301121'/><corr>locosque</corr></rdg>
+        </app>
+
+        <app from='#101127.03' to='#101127.04'>
+            <lem>et fremitum</lem>
+            <rdg wit='#R'><w xml:id='301127.03'>ac</w> fremitum</rdg>
+            <rdg wit='#R1'><del from='#301127.03'/><corr place='sup. lin.'>et</corr></rdg>
+        </app>
+
+        <app from='#101127.05' to='#101127.06'>
+            <lem>ter dentibus</lem>
+            <rdg wit='#R'><w xml:id='301127.05'>iam</w>dentibus</rdg>
+            <rdg wit='#R1'><del from='#301127.05'/><corr place='sup. lin.'>et</corr></rdg>
+        </app>
+
+        <app from='#101135.01'>
+            <lem>Illi</lem>
+            <rdg wit='#R'><w xml:id='301135.01'>Ipsi</w></rdg>
+            <rdg wit='#R1'><del from='#301135.01'/><add place='margin'>Illi</add></rdg>
+        </app>
+
+        <app from='#101154.01' to='#101154.02'>
+            <lem>Haud secus</lem>
+            <rdg wit='#R'><w xml:id='301154.01'>nec</w> secus</rdg>
+            <rdg wit='#R1'><del from='#301154.01'/><corr place='sup. lin.'>haud</corr></rdg>
+        </app>
+
+        <app from='#101160.02'>
+            <lem>tolluntur</lem>
+            <rdg wit='#R'><w xml:id='301160.02'>glomeratur</w></rdg>
+            <rdg wit='#R1'><del from='#301160.02'/><corr place='sup. lin.'>tolluntur</corr></rdg>
+        </app>
+
+        <app from='#101161.07'>
+            <lem>undique</lem>
+            <rdg wit='R'><w xml:id='301161.07'>milia</w></rdg>
+            <rdg wit='R1'><del from='#301161.07'/><corr place='sup. lin.'>undique</corr></rdg>
+        </app>
+
+        <app from='#101162.07'>
+            <lem>flumen</lem>
+            <rdg wit='#R'><w xml:id='301162.07'>murmur</w></rdg>
+            <rdg wit='R1'><del from='#301162.07'/><corr place='sup. lin.' xml:id='#301162.07.a'>flumina</corr></rdg>
+            <rdg wit='R2'><del from='#301162.07.a'/><corr place='sup. lin.' xml:id='#301162.07.b'>flumen</corr></rdg>
+        </app>
+
+        <app from='#101167.07'>
+            <lem>undique</lem>
+            <rdg wit='#R1'><corr/></rdg>
+        </app>
+
+        <app from='#101190' to='#101191'>
+            <lem>et ~ carae</lem>
+            <rdg wit='#R'><add place='inter lin.'><span xml:id='301190'>Cernis ut ipse super nostri sit prole Aeneae</span></add></rdg>
+            <rdg wit='#R1'><del from='#301190'/><corr place='margin'> Stet nunc solus progente Latina</corr></rdg>
+        </app>
+
+        <app from='#101193.05' to='#101193.06'>
+            <lem>ut inclytus</lem>
+            <rdg wit='#R'><w xml:id='301193.05'>et</w> inclitus</rdg>
+            <rdg wit='#R1'><del from='#301193.05'/>ut inclitus</rdg>
+        </app>
+
+        <app from='#101206.04'>
+            <lem>tardis</lem>
+            <rdg wit='#R'><w xml:id='301206.04'>longis</w></rdg>
+            <rdg wit='#R1'><del from='#301206.04'/><add place='sup. lin.'> tardis</add></rdg>
+        </app>
+
+        <app from='#101214.02'>
+            <lem>reficis</lem>
+            <rdg wit='#R'><w xml:id='301214.02'>redimis</w></rdg>
+            <rdg wit='#R1'><del from='#301214.02'/><corr place='sup. lin.'>reficis</corr></rdg>
+        </app>
+
+        <app from='#101220.05'>
+            <lem>simul</lem>
+            <rdg wit='#R'><w xml:id='301220.05'>prior</w></rdg>
+            <rdg wit='#R1'><del from='#301220.05'/><corr place='sup. lin.'>simul</corr></rdg>
+        </app>
+
+        <app from='#101221.04'>
+            <lem>cladis</lem>
+            <rdg wit='#R'><w xml:id='301221.04'>acies</w></rdg>
+            <rdg wit='#R1'><del from='#301221.04'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101224.04'>
+            <lem>serae</lem>
+            <rdg wit='#R'><w xml:id='301224.04'>tardae</w></rdg>
+            <rdg wit='#R1'><del from='#301221.04'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101233.07'>
+            <lem>lapsu</lem>
+            <rdg wit='#R'><w xml:id='301233.07'>cursu</w></rdg>
+            <rdg wit='#R1'><del from='#301233.07'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101233' to='#101234'>
+            <lem>castra ~ edentis</lem>
+            <rdg wit='#R1'><span xml:id='301233'>Stat clypeoclypeus galeae galea, atque viro vir </span></rdg>
+            <rdg wit='#R2'><del from='#301233'/></rdg>
+        </app>
+
+        <app from='#101235.03' to='#101235.04'>
+            <lem>hos insedisse</lem>
+            <rdg wit='#R'><w xml:id='301235.03'>alios</w> <w xml:id='301235.04'>astare</w></rdg>
+            <rdg wit='#R1'><del from='#301235.03' to='#301235.04'/><corr place='margin'>hos insedisse</corr></rdg>
+        </app>
+
+        <app from='#101238.07'>
+            <lem>usque</lem>
+            <rdg wit='#R'><w xml:id='301238.07'>ipse</w></rdg>
+            <rdg wit='#R1'><del from='#301238.07'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101240.03' to='#101240.04'>
+            <lem>validusque levamina</lem>
+            <rdg wit='#R'><w xml:id='301240.03'>riguisque</w> <w xml:id='301240.04'>iuvamina</w></rdg>
+            <rdg wit='#R1'><del from='#301240.03' to='#301240.04'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101250.02'>
+            <lem>moveant</lem>
+            <rdg wit='#R'>moeant</rdg>
+            <rdg wit='#R1'><corr>moevant</corr></rdg>
+        </app>
+
+        <app from='#101254.05'>
+            <lem>Pandulphius</lem>
+            <rdg wit='#R1'>Panfulfius</rdg>
+            <rdg wit='#R2'><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101263'>
+            <lem>agnoscitque ~ precatur</lem>
+            <rdg wit='#R'>gnoscitque Iovem  <span xml:id='301263'>fortem que in sydera dextram / tendit etaetherei suspectat lumen olympi</span></rdg>
+            <rdg wit='R1'><del from='#301263'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101266.04' to='#101266.05'>
+            <lem>nam fortibus</lem>
+            <rdg wit='#R'><w xml:id='301266.04'>iuvenilibus</w></rdg>
+            <rdg wit='#R1'><del from='#301266.04'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101268'>
+            <lem>Alphonso ~ armis</lem>
+            <rdg wit='#R'><lacuna from='#101268.01' to='#101268.06'/></rdg>
+            <rdg wit='R1'><add place='margin'>Alphonso, iniustis Italos qui provocat armis</add> </rdg>
+        </app>
+
+        <app from='#101271.01' to='#101271.02'>
+            <lem>Italiae quicunque</lem>
+            <rdg wit='#R'>???</rdg>
+        </app>
+        
+        <app from='#101285.02'>
+            <lem>sonitus</lem>
+            <rdg wit='#R'><w xml:id='301285.02'>subitae</w></rdg>
+            <rdg wit='#R1'><del from='#301285.02'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101285.06'>
+            <lem>vasti</lem>
+            <rdg wit='#R'><w xml:id='301285.06'>voces</w></rdg>
+            <rdg wit='#R1'><del from='#301285.06'/><corr place='margin'>vasti</corr></rdg>
+        </app>
+
+        <app from='#101300.03'>
+            <lem>magni</lem>
+            <rdg wit='#R'><w xml:id='301300.03'>pulchri</w></rdg>
+            <rdg wit='#R1'><del from='#301330.03'/><add place='sup. lin.'> magni</add></rdg>
+        </app>
+
+        <app from='#101300.05'>
+            <lem>ponderis</lem>
+            <rdg wit='#R'><w xml:id='301300.03'>corporis</w></rdg>
+            <rdg wit='#R1'><del from='#301300.03'/><add place='sup. lin.'>ponderis</add></rdg>
+        </app>
+
+        <app from='#101319.03'>
+            <lem>animos</lem>
+            <rdg wit='#R1'><corr/></rdg>
+        </app>
+        <app from='#101323.02'>
+            <lem>illos</lem>
+            <rdg wit='#R'><w xml:id='301323.02'>omnis</w></rdg>
+            <rdg wit='#R1'><del from='#301323.02'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101345.03'>
+            <lem>vanis</lem>
+            <rdg wit='#R'><w xml:id='301345.03'>scaevis</w></rdg>
+            <rdg wit='#R1'><del from='#301345.03'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101365.01' to='#101365.07'>
+            <lem>Italia</lem>
+            <rdg wit='#R'>Italia? <span xml:id='301365'>euganeus liguri crudelia saepe / bella gerit</span> patrijs unus Sismundus in armis</rdg>
+            <rdg wit='#R'><del from='#301365'/><add place='sup. lin.'>an patriis</add></rdg>
+        </app>
+
+        <app from='#101366.04'>
+            <lem>nec</lem>
+            <rdg wit='#R'><w xml:id='301366.04'>non</w></rdg>
+            <rdg wit='#R1'><del from='#301366.04'/><corr place='sup. lin.'>nec</corr></rdg>
+        </app>
+
+        <app from='#101379' to='#101424'>
+            <lem></lem>
+            <rdg wit='#R'><lacuna from='#101379' to='#101424'/></rdg>
+        </app>
+
+        <app from='#101442' to='#101443'>
+            <lem></lem>
+            <rdg wit='#R'><add xml:id='301442' place='interlinear'>Quae iubet hic animus dulcis efferre??? per auras</add></rdg>
+            <rdg wit='#R1'><del from='#301442'/></rdg>
+        </app>
+
+        <app from='#101450' to='#10451'>
+            <lem></lem>
+            <rdg wit='#R'><add xml:id='301450' place='interlinear'> Unusutrique pater rex omnibus ̇ omnibus aequii</add></rdg>
+            <rdg wit='#R1'><del from='#301540'/></rdg>
+        </app>
+
+        <app from='#101454.07'>
+            <lem>sub</lem>
+            <rdg wit='#R'><w xml:id='301454.07'>per</w></rdg>
+            <rdg wit='#R1'><del from='301454.07'/><corr place='sub sup. lin.'>sub</corr></rdg>
+        </app>
+
+        <app from='#101457.02'>
+            <lem>Ausoniique</lem>
+            <rdg wit='#R'>Italique</rdg>
+            <rdg wit='#R1'><add place='sup. lin'>Ausoniique</add></rdg>
+        </app>
+
+        <app from='#101464.01'>
+            <lem>bella</lem>
+            <rdg wit='#R1'><lacuna>B</lacuna><corr place='margin'>B</corr>ella</rdg>
+        </app>
+
+        <app from='#101465.06'>
+            <lem>humo</lem>
+            <rdg wit='#R'>humi</rdg>
+        </app>
+
+        <app from='#101467.06'>
+            <lem>opimae</lem>
+            <rdg wit='#R'><w xml:id='301467.06'>amenae</w></rdg>
+            <rdg wit='#R1'><del from='#301467.06'/><add place='sup. lin.'>opimae</add></rdg>
+        </app>
+
+        <app from='#101471.04'>
+            <lem>meliore</lem>
+            <rdg wit='#R #R1'><w xml:id='301471.04'>meliori</w></rdg>
+            <rdg wit='#St'><corr>meliore</corr></rdg>
+        </app>
+
+        <app from='#101480.05' to='#101480.07'>
+            <lem>te te arcana</lem>
+            <rdg wit='#R'>te secreta</rdg>
+            <rdg wit='#R1'><add place='sup. lin.'>te te arcana</add></rdg>
+        </app>
+
+        <app from='#101482.03'>
+            <lem>aëriam</lem>
+            <rdg wit='#R'>variam</rdg>
+            <rdg wit='#R1'><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101485' to='#101486'>
+            <lem></lem>
+            <rdg wit='#R'><span place='interlinear' xml:id='301485'>Optime mi coniunx animo carissime nostro</span></rdg>
+            <rdg wit='#R1'><del from='#301485'/></rdg>
+        </app>
+
+        <app from='#101486.05'>
+            <lem>arcana</lem>
+            <rdg wit='#R'>secreta</rdg>
+            <rdg wit='#R1'><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101491' to='#101492'>
+            <lem></lem>
+            <rdg wit='#R'><add xml:id='301491' place='interlinear'>Quare si sapimus ne nosdiscordia flectat / Ullius ipse mihi tibi nos parere velimus / Dixerat. </add></rdg>
+            <rdg wit='#R1'><del from='#301491'/><add place='margin'>Iupiter huic contra tuame tua gratia coniunx / flexit et aeterno mihi te devinxit amore <em>(recto ordine signis appositis tamen restituto ??)</em></add></rdg>
+        </app>
+        <app from='#101492' to='#101493'>
+            <lem>Iuppiter ~ amore</lem>
+            <rdg wit='#R2'><em> scrips. in mg. inf. (recto ordine verborum litteris a et b appositis tamen restituto)</em></rdg>
+        </app>
+
+        <app from='#101497.01' to='#101497.07'>
+            <lem>Illa ~ revisit</lem>
+            <rdg wit='#R2'><em>scrips. in mg. inf. (recto ordine verborum litteris a,b et cappositis tamen restituto</em></rdg>
+        </app>
+
+        <app from='#101529.04'>
+            <lem>et</lem>
+            <rdg wit='#R'>ac</rdg>
+            <rdg wit='#R1'><corr place='sup. lin.'>et</corr></rdg>
+        </app>
+
+        <app from='#101546.05'>
+            <lem>almi</lem>
+            <rdg wit='#R'><em>corr???</em></rdg>
+        </app>
+
+        <app from='#101548.02'>
+            <lem>dulce</lem>
+            <rdg wit='#R'>mite</rdg>
+            <rdg wit='#R1'><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101555.01'>
+            <lem>Vix</lem>
+            <rdg wit='#R'><w xml:id='301555.01'>Rex</w></rdg>
+            <rdg wit='#R1'><del from='#301555.01'/><add place='margin'>vix</add></rdg>
+        </app>
+
+        <app from='#101585.04'>
+            <lem>saevumque</lem>
+            <rdg wit='#R'>scaevumque</rdg>
+            <rdg wit='#R1'><corr>saevumque</corr></rdg>
+        </app>
+
+        <app from='#101627.01'>
+            <lem>scaevior</lem>
+            <rdg wit='#R'><w xml:id='301627.01'>acrior</w></rdg>
+            <rdg wit='#R1'><del from='#301627.01'/><corr place='margin'/></rdg>
+        </app>
+
+        <app from='#101633.02'>
+            <lem>sed</lem>
+            <rdg wit='#R'><w xml:id='301633.02'>vel</w></rdg>
+            <rdg wit='#R1'><del from='#301633.02'/><add place='sup. lin.'>sed</add></rdg>
+        </app>
+
+        <app from='#101648' to='#101649'>
+            <lem></lem>
+            <rdg wit='#R'><span xml:id='301648' place='interlinear'>Ille dolis circum iuvenem venit improbus astu / Callidus, atque animum furijselatus amaris / Dicitur ante alios incensus numine et ira</span></rdg>
+            <rdg wit='#R1'><del from='#301648'/><add place='margin'>cingitur in notas turbandi foederis artis.</add></rdg>
+        </app>
+
+        <app from='#101650' to='#101651'>
+            <lem></lem>
+            <rdg wit='#R1'><span xml:id='301650'>Nec non et varios humero quos gesserat arcus / Corripuisse manu et nervo flexisse retorto </span><em>(rectoordine verborum litteris a et b appositis tamen restituto)</em></rdg>
+            <rdg wit='#R2'><del from='#301650'/></rdg>
+        </app>
+
+        <app from='#101652.05'>
+            <lem>nervumque</lem>
+            <rdg wit='#R1'><corr>???</corr></rdg>
+        </app>
+
+        <app from='#101690.05'>
+            <lem>claro</lem>
+            <rdg wit='#R'><w xml:id='301690.05'>caelo</w></rdg>
+            <rdg wit='#R1'><del from='#301690.05'/><corr place='sup. lin.'/></rdg>
+        </app>
+
+        <app from='#101690.08'>
+            <lem>Olympo</lem>
+            <rdg wit='#R'>ab alto</rdg>
+        </app>
+
+
+
+
+
+    </body>
+
+</text>
+</TEI>	
