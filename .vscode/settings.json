@@ -1,0 +1,5 @@
+{
+    "insertnum.formatstr" : "%03d",
+    "insertnum.start" : 1,
+    "insertnum.step" : 1
+}

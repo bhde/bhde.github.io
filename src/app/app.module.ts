@@ -18,8 +18,7 @@ import { DataBookListComponent } from './data-book-list/data-book-list.component
 import { DataFilesListComponent } from './data-files-list/data-files-list.component';
 import { DataWitListComponent } from './data-wit-list/data-wit-list.component';
 import { EditorCardComponent } from './editor-card/editor-card.component';
-import { ProvaEditionComponent } from './prova-edition/prova-edition.component';
-import { ProvaBookReaderComponent } from './prova-book-reader/prova-book-reader.component';
+import { TeamComponent } from './team/team.component';
 
 
 
@@ -41,8 +40,7 @@ import { ProvaBookReaderComponent } from './prova-book-reader/prova-book-reader.
     DataFilesListComponent,
     DataWitListComponent,
     EditorCardComponent,
-    ProvaEditionComponent,
-    ProvaBookReaderComponent
+    TeamComponent
   ],
   imports: [
     BrowserModule,

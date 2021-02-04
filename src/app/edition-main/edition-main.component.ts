@@ -13,13 +13,10 @@ export class EditionMainComponent implements OnInit {
 
   selectedBook: Book;
 
-  constructor() { };
+  constructor() { }
 
   ngOnInit(): void {
   }
-  public loadComponent = false;
-    loadMyChildComponent(){
-       this.loadComponent = true;
-    }
+
 
 }

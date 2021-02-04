@@ -11,8 +11,7 @@ export class DataFilesListComponent implements OnInit {
     { id: '1', label: 'Critical Text' },
     { id: '2', label: 'Variants' },
     { id: '3', label: 'Author Variants' },
-    { id: '4', label: 'Et similia' },
-    { id: '5', label: 'Apparatus Fontium' },
+    { id: '4', label: 'Similia' },
     { id: '6', label: 'Commentary' },
     { id: '7', label: 'Translation' }
   ];

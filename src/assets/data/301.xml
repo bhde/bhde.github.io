@@ -63,7 +63,7 @@
         <app from='#101052.01' to='101052.07'>
             <lem>Italiae ~ oris</lem>
             <rdg wit='#R' xml:id='301052'>Candida magnanimi capiet tentoria regis</rdg>
-            <rdg wit='#R1'><del from='#301052'/><add>Italiae ~oris</add></rdg>
+            <rdg wit='#R1'><del from='#301052'/><add>Italiae ~ oris</add></rdg>
         </app>
 
         <app from='#101053.01' to='#101053.08'>

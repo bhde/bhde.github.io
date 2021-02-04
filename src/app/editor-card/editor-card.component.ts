@@ -12,7 +12,6 @@ export class EditorCardComponent implements OnInit {
   
 
 
-  constructor() { }
 
   ngOnInit(): void {
   }
