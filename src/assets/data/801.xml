@@ -1,0 +1,76 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>BHDE - Book 1 - Autograph variants</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name xml:id='psn-n.holzl'>Nikolaus Hölzl </name>
+                </respStmt>
+                <respStmt>
+                    <resp>transcriber</resp>
+                    <name xml:id='psn-m.petolicchio'>Marco Petolicchio</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Not ​for ​distribution.​</p>
+            </publicationStmt>
+        </fileDesc>
+    </teiHeader>
+    
+    
+    
+    <text>
+    
+        <body xml:id='701' xml:lang='en'>
+            <seg target='#101001'>
+            As is customary in epic poetry, the proem sets off with an invocation to the Muse, thereby announcing the poem’s major topic: the Tuscan wars in which Sigismondo Malatesta defeated the Spanish invaders. Furthermore, the poet elaborates on the causae of these epic events in an extension of the proem: the previous resentment between the Iberian and Italian peoples, pride in the deeds of their ancestors and Italy’s weakened state due to inner conflicts. These circumstances cause the Aragonese king Alfonso to garrison troops on the Tuscan coast.
+            </seg>
+            <seg target='#101046'>
+            Jupiter instructs Mercury to communicate his orders to Sigismondo: he has to call to arms all the Italian forces and fend off Alfonso. Mercury leaves Olympus and reaches Sigismondo’s encampment in the middle of the night. He conveys Jupiter’s order to the sleeping general and promises the assistance of all the gods in this undertaking.
+            </seg>
+            <seg target="#101073">
+            A concerned Sigismondo reflects deeply upon Jupiter’s order and the possible outcomes of a war, fearing for the well-being of Italy. Dressed in fine raiment and equipped with a god-made sword and sceptre, he appears before his men. Sigismondo orders two heralds to deliver a war ultimatum to the tyrant Alfonso, stating that he must withdraw from Tuscany and leave behind all his spoils of war.
+            </seg>
+            <seg target="#101109">
+            At the first light of dawn, Sigismondo prays to the sun god Apollo, requesting that he support his endeavours. He pursues Alfonso throughout Tuscany, denying him rest in a proper encampment.
+            </seg>
+            <seg target='#101135'>
+            Pallas bestows grace, strength and courage on Sigismondo and fills the army with a desire for battle. Italians near and far flock to his camp at the Arno river. At first a chaotic and noisy crowd, the gathering army is put to order by the authority of Sigismondo.
+            </seg>
+
+            <seg target="#101187">
+            Promising one of her fellow Graces to the god of sleep, Venus persuades him to put restless Sigismondo to sleep. As he has kept away from food and drink as well as from resting, Jupiter sends Iris to refresh Sigismondo’s body with divine nourishment.
+            </seg>
+            <seg target="#101245">
+            The heralds have delivered Sigismondo’s message to Alfonso, who remains self-assured and who responds that the Italian forces are no threat to his undertaking, just as they have not been able to prevent his previous conquest of Parthenope. If Sigismondo dares to challenge him, he may choose between warfare or single combat. Sigismondo rejoices in the prospect of a war-ending duel with Alfonso. He informs his forces and orders them to get ready for battle in case they encounter any ambushes.
+            </seg>
+            <seg target="#101280">
+            Sigismondo’s speech leads to a massive uproar amongst the Italians. Dressed in bright golden armour, he suppresses the opposition by insisting on his god-given authority and by means of harsh, threatening orders.
+            </seg>
+            <seg target="#101333">
+            Fear seizes the Iberians when they hear that Sigismondo is leading the enemy forces. Alfonso’s confidant Antiphates advises the king to end the war and leave Italy at once. Alfonso rebukes him publicly for this insolent suggestion. To lift his soldiers’ spirits, he recounts an augury which supposedly predicted a Spanish victory against the Italians. After this encouragement, the Iberians rush out to the battlefield.
+            </seg>
+            <seg target="#101420">
+            The Iberian throng meets the disciplined Italian army on the battlefield. Combat is about to break out as the fronts draw closer and closer to each other. Sigismondo and Alfonso hold them back in order to discuss the circumstances of their duel. The former states the terms: if he wins, the Spaniards will leave Italy, but if he loses to Alfonso, the war will continue. Alfonso discusses the sacred actions necessary to confirm their pact: an animal sacrifice has to guarantee loyalty to the treaty. Both sides rejoice over the possible end of the war.
+            </seg>
+            <seg target="#101469">
+            In a cordial exchange with his wife, Jupiter praises the virtue of the Italian defence and Sigismondo’s courage in particular. They agree upon dispatching Iris to make the Iberians break the treaty. She seizes the seer Phorbas, an influential advisor of Alfonso, and makes him hallucinate. After leading him away to distant shores, she assumes his appearance. Under this cover, Iris seeks out Biaon, a Libyan archer in Alfonso’s service, and convinces him to try to kill Sigismondo.
+            </seg>
+            <seg target="#101541">
+            Meanwhile, the duellists conclude the ritual sacrifices with a libation of wine and solemn vows to comply with the terms of the treaty. Sigismondo starts a prayer to Jupiter, promising to build him a marvellous temple in Rimini in return for victory.
+            </seg>
+            <seg target="#101579">
+            Alfonso and Sigismondo engage in single combat. The latter retains the upper hand throughout the duel, wounding his enemy with a spear and several blows of his sword. Even when the blade of his sword breaks after repeated strokes on his opponent’s helmet, Sigismondo subdues Alfonso with his bare hands and forces his suffocating enemy to surrender. In exchange for his life and no further harm, the defeated king offers his realm to Sigismondo, who insists on taking him hostage before new treaties are made. 
+            </seg>
+            <seg target="#101645">
+            While Sigismondo is dragging his humiliated enemy back to the Italian ranks, Biaon undertakes his insidious attack on the Italian leader, wounding Sigismondo’s right shoulder with an arrow. Overcome by intense pain, Sigismondo falls down, and Alfonso manages to escape. Invoking Jupiter as the patron of oaths, Sigismondo complains about the broken treaty and begs for retribution. Apollo leads him back to his men and assures Sigismondo of vengeance and imminent victory.
+            </seg>
+            <seg target="#101688">
+            Sigismondo asks Apollo that he be cured by his son Paeon, yet only if Jupiter allows it. Apollo agrees, and promises to ask Jupiter when he comes back from a twelve-day stay in Ethiopia.
+            </seg>
+        </body>
+    </text>
+</TEI>
