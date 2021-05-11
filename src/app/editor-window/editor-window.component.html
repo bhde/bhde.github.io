@@ -1,0 +1,6 @@
+<p>editor-window works!</p>
+<ul class="list-group" *ngIf="dataDocument$ | async as dataDocument">
+  <li class="list-group-item" *ngFor="let body of dataDocument">
+    <pre>{{ body | json }}</pre>
+  </li>
+</ul>

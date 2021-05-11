@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';  
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { DataFilesListComponent } from './data-files-list/data-files-list.compon
 import { DataWitListComponent } from './data-wit-list/data-wit-list.component';
 import { EditorCardComponent } from './editor-card/editor-card.component';
 import { TeamComponent } from './team/team.component';
+import { EditorWindowComponent } from './editor-window/editor-window.component';
 
 
 
@@ -40,7 +42,8 @@ import { TeamComponent } from './team/team.component';
     DataFilesListComponent,
     DataWitListComponent,
     EditorCardComponent,
-    TeamComponent
+    TeamComponent,
+    EditorWindowComponent
   ],
   imports: [
     BrowserModule,
