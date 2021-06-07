@@ -3,9 +3,10 @@
 
 $brand-color--1 : #646f8d;
 
-$brand-font--sans: "Source Sans Pro","Helvetica" Neue,Helvetica,Arial,sans-serif;
-$brand-font--serif : "Rosarivo", serif ;
-
+$brand-font--sans1: "Source Sans Pro","Helvetica" Neue,Helvetica,Arial,sans-serif;
+$brand-font--serif1 : "Rosarivo", serif ;
+$brand-font--sans: "Lato",sans-serif;
+$brand-font--serif : "Lato", sans-serif ;
 
 .bg-brand--1{
     background: $brand-color--1

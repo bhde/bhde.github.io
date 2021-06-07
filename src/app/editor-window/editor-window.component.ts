@@ -1,7 +1,9 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Input } from "@angular/core";
 import { Observable } from "rxjs";
-import { switchMap } from "rxjs";
+import { switchMap } from "rxjs/operators";
 import { HttpClient } from "@angular/common/http";
+import { Book } from '../book';
+
 
 declare const require;
 const xml2js = require("xml2js");
@@ -12,17 +14,19 @@ const xml2js = require("xml2js");
   styleUrls: ['./editor-window.component.scss']
 })
 export class EditorWindowComponent implements OnInit {
+    @Input() book: Book;
+
 
   dataDocument$: Observable<Array<any>>;
 
   constructor(private http: HttpClient) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.dataDocument$ = this.getDataDocument();
   }
   getDataDocument() {
     return this.http
-      .get("/assets/data/101.xml", { responseType: "text" })
+      .get("/assets/data/102.xml", { responseType: "text" })
       .pipe(
         switchMap(async xml => await this.parseXmlToJson(xml))
       );

@@ -17,3 +17,4 @@ export class EditorCardComponent implements OnInit {
   }
 
 }
+

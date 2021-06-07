@@ -1,6 +1,10 @@
+  <div class="card w-90 serif">
+
 <p>editor-window works!</p>
-<ul class="list-group" *ngIf="dataDocument$ | async as dataDocument">
-  <li class="list-group-item" *ngFor="let body of dataDocument">
+<div class="list-group" *ngIf="dataDocument$ | async as dataDocument">
+
+  <div class="list-group-item" *ngFor="let body of dataDocument">
     <pre>{{ body | json }}</pre>
-  </li>
-</ul>
+    </div>
+</div>
+</div>

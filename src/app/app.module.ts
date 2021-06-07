@@ -47,7 +47,8 @@ import { EditorWindowComponent } from './editor-window/editor-window.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule    
+    AppRoutingModule,
+    HttpClientModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
